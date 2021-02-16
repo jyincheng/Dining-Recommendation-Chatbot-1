@@ -46,12 +46,10 @@ Customer Service is a core service for a lot of businesses around the world and 
 #### 5) [Lambda](https://aws.amazon.com/lambda/) - LF1
 - Trigger to fulfill the recommendation by sending it to SQS for later processing after the conversation.
 
-#### 6) AWS Region: US-east-1 (N. Virginia)
-
-#### 7) [Simple Queue Servive](https://console.aws.amazon.com/sqs/v2/home)
+#### 6) [Simple Queue Servive](https://console.aws.amazon.com/sqs/v2/home)
 - FIFO type.
 
-#### 8) [ElasticSearch](https://console.aws.amazon.com/es/home)
+#### 7) [ElasticSearch](https://console.aws.amazon.com/es/home)
 - 7000+ Yelp API cuisines data.
 - Store restaurants Key ID and cuisine types.
 
@@ -66,6 +64,7 @@ Customer Service is a core service for a lot of businesses around the world and 
 - Use key as an index to load data from dynamodB.
 - Randomly select recommended restaurants.
 - Organize the data into a message and deliver it to users by both e-mail and phone.
+
 
 ## Contributor ##
 #### [Yin Cheng](https://github.com/jyincheng)(UNI: cc4717), [Tim Kao](https://github.com/tim-kao) (UNI: sk4920)
